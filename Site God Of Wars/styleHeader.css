@@ -1,0 +1,139 @@
+.sonyBar{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+}
+.logoSonyImg{
+    margin-right: 20px;
+    width: 90px;
+}
+
+
+.socialBar{
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.containerSocial{
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: SST, helvetica, arial, sans-serif;
+}
+.logoPlaystationImg{
+    width: 35px;
+}
+.arrowImg{
+    width: 20px;
+}
+.toolBar{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #757575;
+    cursor: pointer;
+}
+
+.containerlogin{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.loginBtn{
+    width: 140px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #0070cc;
+    
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: sst, helvetica, arial, sans-serif;
+}
+.containerSearch{
+    margin-right: 20px;
+}
+.searchImg{
+    
+    width: 25px;
+}
+.hover1:hover{
+    color: #0070cc;
+}
+.arrowImg:hover{
+    color: #0070cc;
+}
+
+
+
+
+
+.containerDescGame{
+
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.containerGowImg{
+    margin-left: 20px;
+}
+.logoGOFImg{
+    width: 200px;
+}
+
+.containerToolBarGame{
+    width: 100%;
+    height: 100%;
+
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerCompra{
+    width: 250px;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnGeralGame{
+    font-size: 16px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.visaoGeralBtn{
+    background-color: #cdcdcd;
+}
+.compraBtn{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background-color: #a22d00;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hover2:hover{
+    background-color: #ebebeb ;
+    transition: 1s;
+}

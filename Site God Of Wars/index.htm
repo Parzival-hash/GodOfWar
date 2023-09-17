@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Of Wars</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleHeader.css">
+
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fast.fonts.net" crossorigin="">
+    <link rel="dns-prefetch" href="https://fast.fonts.net">
+    <link rel="preload" as="style" href="https://static.playstation.com/font-stack/v1/css/font-all.css">
+
+</head>
+<Header>
+    <div class="sonyBar">
+        <img class="logoSonyImg" src="Assets/sony_logo.svg" alt="Logo Sony">
+    </div>
+
+    <div class="socialBar">
+
+        <div class="containerSocial">
+
+            <img class="logoPlaystationImg" src="Assets/playstation_svg.svg" alt="Logo Playstation">
+
+            <div class="containerJogos">
+                <span class="jogosSpn toolBar hover1">
+                    Jogos
+                    <img class="arrowImg" src="Assets/arrow_svg.svg" alt="Arrow">
+                </span>
+            </div>
+
+            <div class="containerHardware ">
+                <span class="HardwareSpn toolBar hover1">
+                    Hardware
+                    <img class="arrowImg" src="Assets/arrow_svg.svg" alt="Arrow">
+                </span>
+            </div>
+
+            <div class="containerServiços ">
+                <span class="ServiçosSpn toolBar hover1">
+                    Serviços
+                    <img class="arrowImg" src="Assets/arrow_svg.svg" alt="Arrow">
+                </span>
+            </div>
+
+            <div class="containerNoticias ">
+                <span class="NoticiasSpn toolBar hover1">
+                    Notícias
+                    <img class="arrowImg" src="Assets/arrow_svg.svg" alt="Arrow">
+                </span>
+            </div>
+
+            <div class="containerLoja ">
+                <span class="LojaSpn toolBar hover1">
+                    Loja
+                    <img class="arrowImg" src="Assets/arrow_svg.svg" alt="Arrow">
+                </span>
+            </div>
+
+            <div class="containerSuporte ">
+                <span class="SuporteSpn toolBar hover1">
+                    Suporte
+                    <img class="arrowImg" src="Assets/arrow_svg.svg" alt="Arrow">
+                </span>
+            </div>
+
+            <div class="containerlogin">
+                <button class="loginBtn" type="button">
+                    Iniciar Sessão
+                </button>
+                <div class="containerSearch">
+                    <img class="searchImg" src="Assets/search_svg.svg" alt="Search">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="containerDescGame">
+        <div class="containerGowImg">
+            <img class="logoGOFImg" src="Assets/logo_GodOfWars.webp" alt="Logo God Of Wars">
+        </div>
+
+        <div class="containerToolBarGame">
+            <div class="containerBtnVGJ">
+                <button class="visaoGeralBtn btnGeralGame hover2" type="button">
+                    Visão Geral do Jogo
+                </button>
+            </div>
+
+            <div class="containerBtnVT">
+                <button class="videoTelaBtn btnGeralGame hover2" type="button">
+                    Vídeo e Telas
+                </button>
+            </div>
+
+            <div class="containerBtnNS">
+                <button class="bastidoresBtn btnGeralGame hover2" type="button">
+                    Nos Bastidores
+                </button>
+            </div>
+
+            <div class="containerBtnGF">
+                <button class="guiaOficialBtn btnGeralGame hover2" type="button">
+                    Guia Oficial
+                </button>
+            </div>
+
+            <div class="containerBtnPC">
+                <button class="PCBtn btnGeralGame hover2" type="button">
+                    PC
+                </button>
+            </div>
+
+        </div>
+
+        <div class="containerCompra">
+
+            <div class="compreAgora">
+                <button class="compraBtn" type="button">
+                    Compre Agora
+                </button>
+            </div>
+        </div>
+    </div>
+</Header>
+
+
+<body>
+    <div class="containerGeral1">
+        <div class="containerVideo">
+            <video class="videoSrc" loop autoplay muted src="Assets/Video1.mp4"></video>
+            <div class="efeitoVideo1"></div>
+
+            <div class="containerDescValor">
+                <span class="h1GodOfWars">
+                    God Of War
+                </span>
+                <span class="descSony">
+                    Sony Interactive Entertainment
+                </span>
+
+                <div class="containerPlataformas">
+
+                    <span class="descDisponivel">
+                        disponível para:
+                    </span>
+
+                    <div class="plataformas">
+                        <div class="ps5 border1">
+                            PS5
+                        </div>
+                        <div class="ps4 border1">
+                            PS4
+                        </div>
+                        <div class="PC border1">
+                            PC
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="containerCheckboxValor margin">
+                    <label class="containerCheckbox">
+                        <input type="checkbox" class="checkbox" onclick="toggleCheckboxes(this)">
+                        <span class="checkmark"></span>
+                    </label>
+                    <span class="valorGame">R$99,50</span>
+                </div>
+
+                <div class="containerCheckboxValor">
+                    <label class="containerCheckbox">
+                        <input type="checkbox" class="checkbox" onclick="toggleCheckboxes(this)">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <span class="gamePSplus">incluído </span>
+                    <span class="valorDesconto">R$99,50</span>
+                </div>
+
+                <div class="containerPSplus">
+                    <img class="imgPSplus" src="Assets/PSplus.png" alt="PSplus">
+                    <span class="psPlusDesc">Assine PlayStation Plus Extra para acessar este jogo e centenas de
+                        outros no Catálogo de jogos</span>
+                </div>
+
+                <div class="containerAssinatura">
+                    <button class="btnAssinatura" type="button">Assinar</button>
+                    <div class="containerFavoritos">
+                        <img class="imgLike" src="Assets/Coração.svg" alt="Like">
+                    </div>
+                </div>
+
+                <div class="containerLancamento">
+                    <span class="spnLancamento">
+                        Lançado 20/04/2018.
+                    </span>
+                </div>
+
+            </div>
+            <div class="containerClassificacao">
+                <img class="img18" src="Assets/18.png" alt="">
+                <span>Linguagem Imprópria, Violência Extrema</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerCarrosel">
+        <button class="arrowLeft control" aria-label="Previous Image">
+            ◀
+        </button>
+        <button class="arrowRight control" aria-label="Next Image">
+            ▶
+        </button>
+        <div class="galleryWrapper">
+            <div class="gallery">
+                <img class="item currentItem" src="Assets/Carrossel/Img1.webp" alt="God Of War img1">
+                <img class="item" src="Assets/Carrossel/Img3.webp" alt="God Of War img3">
+                <img class="item" src="Assets/Carrossel/Img7.webp" alt="God Of War img4">
+                <img class="item" src="Assets/Carrossel/Img2.webp" alt="God Of War img2">
+                <img class="item" src="Assets/Carrossel/Img4.webp" alt="God Of War img5">
+                <img class="item" src="Assets/Carrossel/Img5.webp" alt="God Of War img6">
+                <img class="item" src="Assets/Carrossel/Img6.webp" alt="God Of War img7">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="containerGeral2">
+        <div class="efeitoVideo1"></div>
+        <div class="containerImgBackground1">
+            <img class="imgBackground1" src="Assets/god-of-war-bg-image-02-us-06oct17.webp" alt="">
+        </div>
+        <div class="containerDescGame2">
+            <span class="spnVsGame">VISÃO GERAL DO JOGO</span>
+            <span class="spnDesc2">Um recomeço ousado</span>
+        </div>
+        <div class="containerDescGame3">
+            <div class="section1 text">
+                Kratos é pai novamente. Como mentor e protetor de Atreus, um filho determinado a ganhar seu respeito,
+                ele é forçado a encarar e controlar a fúria que há muito tempo o define enquanto viaja por um mundo
+                ameaçador com o seu filho.
+            </div>
+            <div class="section2 text">
+                Com a vingança contra os deuses do Olimpo no passado, Kratos agora vive no reino das divindades e
+                monstros nórdicos.
+            </div>
+            <div class="section3 text">
+                É nesse mundo duro e impiedoso que ele deve lutar para sobreviver enquanto ensina seu filho a fazer o
+                mesmo e tenta impedi-lo de repetir os erros cruéis do Fantasma de Esparta.
+            </div>
+            <div class="section4 text">
+                Esta impressionante repaginação de God of War reúne todas as características marcantes dessa famosa
+                franquia — combate brutal, lutas épicas contra chefes e uma grandiosidade de tirar o fôlego — e as
+                mescla a uma narrativa poderosa e emocionante que reestabelece o mundo de Kratos.
+            </div>
+        </div>
+    </div>
+
+    <div class="containerGeral3">
+        <div class="containerTitle">
+            <span class="titleRP">Recursos principais</span>
+        </div>
+
+
+        <div class="containerGeralRp">
+
+
+            <div class="line1">
+
+                <div class="containerRP">
+                    <img class="imgRP1" src="Assets/Recursos Pricipais/img1.webp" alt="">
+                    <div class="RP1">
+                        <h1 class="h1Title">Sobreviva ao reino nórdico </h1>
+
+                        <span class="spnDesc1">Com a vingança contra os deuses do Olimpo em um passado distante, Kratos
+                            agora
+                            vive como um mortal
+                            no reino dos deuses e monstros nórdicos. É nesse mundo duro e implacável que ele deve lutar
+                            para
+                            sobreviver... e ensinar seu filho a fazer o mesmo.</span>
+                    </div>
+                </div>
+
+                <div class="containerRP">
+                    <img class="imgRP1" src="Assets/Recursos Pricipais/img2.webp" alt="">
+                    <div class="RP1">
+                        <h1 class="h1Title">Uma segunda chance</h1>
+
+                        <span class="spnDesc1">Kratos é pai novamente. Como mentor e protetor de Atreus, um filho
+                            determinado a
+                            ganhar seu respeito, ele é forçado a encarar e controlar a fúria que há muito tempo o define
+                            enquanto viaja por um mundo ameaçador com o seu filho.</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="line2 ">
+                <div class="containerRP">
+                    <img class="imgRP1" src="Assets/Recursos Pricipais/img3.webp" alt="">
+                    <div class="RP1">
+                        <h1 class="h1Title">Um mundo mais sombrio e primitivo</h1>
+
+                        <span class="spnDesc1">Do mármore e colunas ornadas do Olimpo para as florestas, montanhas e
+                            cavernas da história nórdica pré-era viking, este é um reino claramente novo, com suas
+                            próprias espécies de criaturas, monstros e deuses.</span>
+                    </div>
+                </div>
+
+                <div class="containerRP">
+                    <video class="imgRP1" loop autoplay muted src="Assets/Recursos Pricipais/Video 2.mp4"></video>
+                    <div class="RP1">
+                        <h1 class="h1Title">Combate físico intenso</h1>
+
+                        <span class="spnDesc1">Com uma câmera livre sobre o ombro do personagem que deixa o jogador mais
+                            próximo do que nunca da ação,as lutas em God Of War refletem a variedade de criaturas
+                            nórdicas que Kratos vai enfrentar: são grandiosas, realistas e cruéis. A nova arma principal
+                            e as novas habilidades mantêm o espírito de God of War, mas também introduzem novos
+                            conceitos ao gênero, com uma nova perspectiva para os combates brutais.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containerGeral4">
+        <div class="title3">
+            <span class="spnDesc3">
+                DISPONÍVEL NA PLAYSTATION STORE
+            </span>
+            <span class="spnDesc4">
+                Comprar God of War
+            </span>
+        </div>
+
+        <div class="containerGeralPromo">
+
+
+            <div class="conainerPromo1">
+                <img class="imgPromo" src="Assets/Promo/img1.avif" alt="">
+                <h1 class="h1TitlePromo">God of War</h1>
+                <div class="adicional">
+
+                </div>
+
+                <div class="valorPromo">
+                    <span class="spnPreco1">R$99,50</span>
+                </div>
+
+                <div class="promo">
+                    <button class="btnAddCar" type="button">Adicionar ao Carrinho</button>
+                    <div class="containerFavoritos2">
+                        <img class="imgFavoritar" src="Assets/Coração.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="conainerPromo1">
+                <img class="imgPromo" src="Assets/Promo/img2.avif" alt="">
+                <h1 class="h1TitlePromo">God of War</h1>
+
+                <div class="adicional">
+                    <ul>
+                        <li>
+                            God of War PS4™ Dynamic Theme
+                        </li>
+                        <li>
+                            “Death’s Vow” Armor for Kratos
+                        </li>
+                        <li>
+                            “Exile’s Guardian” Shield Skin
+                        </li>
+                        <li>
+                            “Death’s Vow” Armor for Atreus
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="valorPromo">
+                    <span class="spnPreco1">R$112,12</span>
+                </div>
+
+                <div class="promo">
+                    <button class="btnAddCar" type="button">Adicionar ao Carrinho</button>
+                    <div class="containerFavoritos2">
+                        <img class="imgFavoritar" src="Assets/Coração.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="conainerPromo1">
+                <div class="conatinerImgPromo">
+                    <img class="imgPromo3" src="Assets/Promo/img3.avif" alt="">
+                </div>
+                <h1 class="h1TitlePromo">God of War - Digital Comic Book Issue 1</h1>
+
+                <div class="adicional">
+
+                </div>
+
+                <div class="valorPromo">
+                    <span class="spnPreco1">Gratuito</span>
+                </div>
+
+                <div class="promo">
+                    <button class="btnAddCar" type="button">Adicionar ao Carrinho</button>
+                    <div class="containerFavoritos2">
+                        <img class="imgFavoritar" src="Assets/Coração.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="containerGeral5">
+
+        <div class="descGeral5">
+            <span class="tatleGeral5">God of War no PC</span>
+            <span class="spnGeral5">Conheça mais detalhes da aventura de Kratos e Atreus pelos reinos nórdicos e veja
+                como comprar o jogo
+                para PC.</span>
+            <button class="btnSaibaMais" type="button">Saiba Mais</button>
+        </div>
+
+        <div class="containerImgTv">
+            <img class="imgTv" src="Assets/Tv.webp" alt="">
+        </div>
+    </div>
+
+    <div class="containerGeral6">
+
+
+        <div class="containerDescGeral6">
+            <span class="titleGeral6">Os monstros de God of War</span>
+            <span class="descGeral6">Veja de perto as feras terríveis que aguardam você na jornada perigosa de Kratos e
+                Atreus.</span>
+            <span class="descGeral62">Será que você terá coragem de enfrentar os mortos-vivos Draugr, as bruxas
+                Regressadas ou o temível
+                Troll de Fogo? </span>
+            <button class="btnVideos" type="button">Veja Todos os videos</button>
+        </div>
+
+        <div class="containerImgTrol">
+            <img class="imgTrol" src="Assets/god-of-war-fire-troll-key-art-01-ps4-us-31aug17.webp" alt="">
+        </div>
+    </div>
+    </div>
+
+    <div class="containerGeral7">
+
+        <div class="containerDescGeral7">
+            <span class="titleGeral7">Guia oficial de God of War</span>
+            <span class="descGeral7">Conheça os conceitos básicos de combate, explore a história deste cenário lendário
+                e estude os inimigos que você enfrentará com o guia oficial de God of War do PlayStation.</span>
+            <button class="btnVideos" type="button">Saiba Mais</button>
+        </div>
+
+
+        <div class="containerImgArmor">
+            <img class="imgArmor" src="Assets/imgArmor.webp" alt="">
+        </div>
+    </div>
+    </div>
+
+
+    <div class="containerGeral8">
+        <div class="containerImgDragon">
+            <img class="ImgDragon" src="Assets/dragon.webp" alt="Image dragon">
+        </div>
+
+        <div class="containerDescGame8Geral">
+
+            <div class="containerTitleGame4">
+                <span class="spnTitle1Game4">REVIVA UMA AVENTURA ÉPICA</span>
+                <span class="spnTitle2Game4">Novo Jogo+ em God of War</span>
+            </div>
+
+            <div class="descGeral8">Terminou a jornada de Kratos? Não guarde o machado ainda. Depois de concluir a
+                campanha
+                de God of War em qualquer dificuldade você desbloqueia o modo Novo Jogo+. Ele permite que você:
+            </div>
+
+            <div class="containerListas8">
+                <ul class="ulContainer8">
+                    <li class="liContainer8">Reviva a jornada de Kratos e Atreus com todas as armaduras, encantamentos,
+                        talismãs, recursos e
+                        habilidades que você já possui, na dificuldade que escolher.
+                    </li>
+                    <li>
+                        Teste suas habilidades contra inimigos de nível mais alto, sendo que alguns deles têm novas
+                        habilidades letais.
+                    </li class="liContainer8">
+                    <li>
+                        Obtenha "Resíduo Mineral", um novo recurso para criar e aprimorar seu equipamento.
+                    </li>
+                    <li class="liContainer8">
+                        Explore novas opções de personalização, com conjuntos de armadura e encantamentos inéditos e
+                        extremamente poderosos, para que você jogue de uma nova maneira.
+                    </li>
+                    <li class="liContainer8">
+                        Pule as cenas cinematográficas no modo Normal e Novo Jogo+ após concluir o jogo uma vez.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="containerGeral9">
+
+        <div class="containerDescGeral9">
+            <span class="titleGeral9">Explore a série God of War</span>
+            <span class="descGeral9">Confira todos os títulos da série e conheça mais sobre a história de Kratos no hub
+                oficial de God of War.</span>
+            <button class="btnVideos" type="button">Saiba Mais</button>
+        </div>
+
+    </div>
+    </div>
+
+
+    <div class="containerGeral10">
+
+        <div class="containerDescGeral10">
+            <div class="containerDescAccessibility">
+
+                <div class="containerIconAccessibility">
+                    <img class="imgAccessibility" src="Assets/accessibility-svgrepo-com.svg" alt="accessibility">
+                </div>
+
+                <span class="titleGeral10">Recursos de acessibilidade </span>
+                <span class="descGeral10">PlayStation® busca criar uma experiência de jogo que atenda às necessidades
+                    dos seus jogadores com todos os tipos de habilidades. Descubra mais sobre os recursos de
+                    acessibilidade incluídos neste e em outros títulos do PlayStation Studios. </span>
+                <button class="btnVideos" type="button">Saiba Mais</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="containerGeral11">
+
+
+        <div class="containerEspecificacoes">
+
+            <div class="especificacoes">
+
+                <div class="containerPlatafoma especf">
+                    <div class="plataforma">
+                        <span class="spnPlataforma">
+                            Plataforma:
+                        </span>
+                    </div>
+                    <div class="containerPs4 divSpnAjuste">
+                        <span class="spnPS4 spnAjuste">
+                            PS4
+                        </span>
+                    </div>
+                </div>
+
+                <div class="containerLancamento especf">
+                    <div class="lancamento">
+                        <span class="spnLancamento2">
+                            lançamento:
+                        </span>
+                    </div>
+                    <div class="dataLancamento divSpnAjuste">
+                        <span class="spnDataLancamento spnAjuste">
+                            19/4/2018
+                        </span>
+                    </div>
+                </div>
+
+                <div class="containerDistribuidora especf">
+                    <div class="distribuidora">
+                        <span class="spnDistribuidora">
+                            Distribuidora:
+                        </span>
+                    </div>
+                    <div class="distribuidoraSony divSpnAjuste">
+                        <span class="spnDistribuidoraSony spnAjuste">
+                            Sony Interactive Entertainment
+                        </span>
+                    </div>
+                </div>
+
+                <div class="containerGenero especf">
+                    <div class="genero">
+                        <span class="spnGenero">
+                            Gênero:
+                        </span>
+                    </div>
+                    <div class="typeGenero divSpnAjuste">
+                        <span class="spnTypeGenero spnAjuste">
+                            Ação
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="descFinal">
+                <div class="containerSpnDesc">
+                    <div class="aa">
+
+                        <span class="spnDescFinal">
+                            Para jogar esse jogo no PS5, talvez seja preciso atualizar seu sistema com o software do
+                            sistema
+                            mais recente. É possível jogar esse jogo no PS5, mas alguns recursos disponíveis no PS4
+                            podem estar
+                            ausentes. Consulte PlayStation.com/bc para obter mais detalhes.
+                        </span>
+                    </div>
+
+                    <div class="aa">
+
+                        <span class="spnDescFinal">
+                            É preciso ter uma conta para usar os recursos online, que estão sujeitos aos termos de
+                            serviço e à
+                            política de privacidade aplicável (playstationnetwork.com/terms-of-service e
+                            playstationnetwork.com/privacy-policy).
+                        </span>
+                    </div>
+
+                    <div class="aa">
+
+                        <span class="spnDescFinal">
+                            Software sujeito à licença e à garantia limitada (us.playstation.com/softwarelicense/br).
+                        </span>
+                    </div>
+
+                    <div class="aa">
+
+                        <span class="spnDescFinal">
+                            A taxa única de licença dá o direito de jogar no sistema PS4™ principal designado e outros
+                            sistemas
+                            PS4™ quando está usando essa conta.
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="direitos">
+        <span>
+            ©2018 Sony Interactive Entertainment LLC. God of War is a trademark of Sony Interactive
+            Entertainment LLC.
+        </span>
+    </div>
+
+
+
+    <div class="containerFinal">
+
+        <div class="containerFinalGeral">
+
+            <div class="containerLogos">
+
+                <div class="containerImgPlayStation">
+                    <img class="imgPlayStation" src="Assets/playstation_svg.svg" alt="PlayStation Logo">
+                </div>
+
+                <div class="containerImgPlayStation2">
+                    <img class="imgPlayStation2" src="Assets/playstationWhite.png" alt="PlayStation Logo">
+                </div>
+
+            </div>
+
+            <div class="caminho">
+                <span class="spnCaminho">
+                    Início <img class="imgArrow" src="Assets/arrow-next-small-svgrepo-com.svg" alt="">
+                    Jogos<img class="imgArrow" src="Assets/arrow-next-small-svgrepo-com.svg" alt="">
+                    God of War - Jogos para PS4 | PlayStation
+                </span>
+            </div>
+
+            <div class="lineDivision"></div>
+
+
+            <div class="containerFinalGeral2">
+
+
+                <div class="containerSobre">
+                    <div class="titleSobre">
+                        <span class="spnSobreTitle CssTitleFinal">
+                            Sobre
+                        </span>
+                    </div>
+                    <span class="spnSobre2 CssSpnFinal">Sobre a SIE</span>
+                    <span class="spnSobre2 CssSpnFinal">Carreiras</span>
+                    <span class="spnSobre2 CssSpnFinal">PlayStation Studios</span>
+                    <span class="spnSobre2 CssSpnFinal">PlayStation Productions</span>
+                    <span class="spnSobre2 CssSpnFinal">Empresarial</span>
+                </div>
+
+                <div class="containerProdutos CssContainerFinal">
+                    <div class="titleProdutos">
+                        <span class="spnProdutosTitle CssTitleFinal">
+                            Sobre
+                        </span>
+                    </div>
+                    <span class="spnProdutos2 CssSpnFinal">PS5</span>
+                    <span class="spnProdutos2 CssSpnFinal">PS4</span>
+                    <span class="spnProdutos2 CssSpnFinal">PS VR2</span>
+                    <span class="spnProdutos2 CssSpnFinal">PS Plus</span>
+                    <span class="spnProdutos2 CssSpnFinal">Acessorios</span>
+                    <span class="spnProdutos2 CssSpnFinal">Jogos</span>
+                </div>
+
+                <div class="containerValores2 CssContainerFinal">
+                    <div class="titleValores">
+                        <span class="spnValoresTitle CssTitleFinal">
+                            Sobre
+                        </span>
+                    </div>
+                    <span class="spnValores2 CssSpnFinal">PS5</span>
+                    <span class="spnValores2 CssSpnFinal">PS4</span>
+                    <span class="spnValores2 CssSpnFinal">PS VR2</span>
+                    <span class="spnValores2 CssSpnFinal">PS Plus</span>
+                    <span class="spnValores2 CssSpnFinal">Acessorios</span>
+                    <span class="spnValores2 CssSpnFinal">Jogos</span>
+                </div>
+
+                <div class="containerSuporte2 CssContainerFinal">
+                    <div class="titleSuporte">
+                        <span class="spnSuporteTitle CssTitleFinal">
+                            Sobre
+                        </span>
+                    </div>
+                    <span class="spnSuporte2 CssSpnFinal">PS5</span>
+                    <span class="spnSuporte2 CssSpnFinal">PS4</span>
+                    <span class="spnSuporte2 CssSpnFinal">PS VR2</span>
+                    <span class="spnSuporte2 CssSpnFinal">PS Plus</span>
+                    <span class="spnSuporte2 CssSpnFinal">Acessorios</span>
+                    <span class="spnSuporte2 CssSpnFinal">Jogos</span>
+                </div>
+
+                <div class="containerRecursos2 CssContainerFinal">
+                    <div class="titleRecursos">
+                        <span class="spnRecursosTitle CssTitleFinal">
+                            Sobre
+                        </span>
+                    </div>
+                    <span class="spnRecursos2 CssSpnFinal">Termos de serviços da PSN</span>
+                    <span class="spnRecursos2 CssSpnFinal">Política de cancelamento da PS Store</span>
+                    <span class="spnRecursos2 CssSpnFinal">Classificações etárias</span>
+                    <span class="spnRecursos2 CssSpnFinal">PS Plus</span>
+                    <span class="spnRecursos2 CssSpnFinal">Alerta de saúde</span>
+                    <span class="spnRecursos2 CssSpnFinal">Desenvolvedores</span>
+                </div>
+
+                <div class="containerConectar2 CssContainerFinal">
+                    <div class="titleConectar">
+                        <span class="spnConectarTitle CssTitleFinal">
+                            Conectar
+                        </span>
+                    </div>
+
+                    <div class="IconConectar">
+                        <img class="imgIconConectar" src="Assets/Facebook.svg" alt="Icon Facebook">
+                        <img class="imgIconConectar" src="Assets/Twitter.svg" alt="Icon Twitter">
+                        <img class="imgIconConectar" src="Assets/Instagram.svg" alt="Icon instagram">
+                        <img class="imgIconConectar" src="Assets/youtube.svg" alt="Icon youtube">
+
+                    </div>
+
+                    <span class="spnConectar2 CssSpnFinal">Aplicativo IOS</span>
+                    <span class="spnConectar2 CssSpnFinal">Aplicativo Android</span>
+                </div>
+            </div>
+
+
+            
+            
+            <div class="containerFinalGeral3">
+                <div class="containerImgFinal">
+                    
+                    <div class="containerImgSony">
+                        <img class="imgSony" src="Assets/sonySvg.svg" alt="Img Sony">
+                    </div>
+                    
+                    <div class="containerImgPrivacy">
+                        <img class="imgPrivacy" src="Assets/PrivacyCertified.svg" alt="Img Privacy">
+                    </div>
+                    
+                </div>
+                
+                <div class="direitosFinais">
+                    <span class="spnDireitos">
+                        © 2023 Sony Interactive Entertainment LLC
+                    </span>
+                    
+                    <span class="spnDireitos">Todo o conteúdo, títulos de jogos, nomes comerciais e/ou designações
+                        comerciais, marcas comerciais, arte e imagens associadas são marcas registradas e/ou material
+                        sob direitos autorais dos seus respectivos proprietários. Todos os direitos reservados. Mais
+                        informações
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="lineDivision3"></div>
+
+            <div class="containerFinalGeral4">
+
+                <div class="Pais">
+                    <img class="imgEarth" src="Assets/earth-9-svgrepo-com.svg" alt="Icon Earth">
+                    <span>Brasil</span>
+                    <img class="imgArrow" src="Assets/arrow-next-small-svgrepo-com.svg" alt="">
+                </div>
+                
+                <div class="BasesJuridicas">
+                    <span>Bases jurídicas | 
+                        Política de privacidade | 
+                        Termos de uso do website |
+                        Mapa do site</span>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
